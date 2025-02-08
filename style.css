@@ -1,0 +1,180 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    height: 40px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #00b39b;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section Héro */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #e5faf8;
+}
+.hero h1 {
+    font-size: 2.5em;
+    color: #00b39b;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #747474;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Cartes */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card h3 {
+    font-size: 1.5em;
+}
+
+.card.patients {
+    background-color: #00b39b;
+}
+
+.card.medecins {
+    background-color: #3d83df;
+}
+
+.card.cliniques {
+    background-color: #1b2734;
+}
+
+/* Statistiques */
+.stats {
+    background-color: #e5faf8;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.stat-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.stat-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.stat-box h3 {
+    color: #00b39b;
+    font-size: 1.8em;
+}
+
+.stat-box p {
+    color: #747474;
+}
+
+/* Villes */
+.cities {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.city-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.city {
+    width: 250px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.city img {
+    width: 100%;
+    height: auto;
+}
+.city-name {
+    background-color: #00b39b;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #3d83df;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cards, .stat-grid, .city-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+}
