@@ -37,6 +37,7 @@ nav a:hover {
     padding: 60px 20px;
     background-color: #e5faf8;
 }
+
 .hero h1 {
     font-size: 2.5em;
     color: #00b39b;
@@ -65,6 +66,7 @@ nav a:hover {
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 .card h3 {
     font-size: 1.5em;
 }
@@ -76,9 +78,8 @@ nav a:hover {
 .card.medecins {
     background-color: #3d83df;
 }
-
-.card.cliniques {
-    background-color: #1b2734;
+card.cliniques {
+    background-color: #1a1a1a;
 }
 
 /* Statistiques */
@@ -112,7 +113,6 @@ nav a:hover {
 .stat-box p {
     color: #747474;
 }
-
 /* Villes */
 .cities {
     padding: 60px 20px;
@@ -138,6 +138,7 @@ nav a:hover {
     width: 100%;
     height: auto;
 }
+
 .city-name {
     background-color: #00b39b;
     color: #fff;
